@@ -1,0 +1,17 @@
+{
+  "name": "advanced-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "pug -w ./pug/index.pug -o /build/html/"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "grunt-cli": "^1.4.3",
+    "grunt-contrib-sass": "^2.0.0",
+    "pug": "^3.0.2"
+  }
+}
