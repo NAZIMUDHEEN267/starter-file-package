@@ -1,0 +1,29 @@
+{
+  "name": "starter-file",
+  "version": "1.0.0",
+  "description": "generating files for project",
+  "main": "./starter-file/index.js",
+  "scripts": {
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nazimudheen267/starter-file.git"
+  },
+  "keywords": [
+    "grunt",
+    "generator"
+  ],
+  "author": "nazimudheen_ti",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nazimudheen267/starter-file/issues"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "homepage": "https://github.com/nazimudheen267/starter-file#readme",
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  }
+}
