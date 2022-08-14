@@ -28,6 +28,6 @@
     "inquirer": "^8.2.0"
   },
   "publishConfig": {
-     "registry": "https://npm.pkg.github.com/@nazimudheen267"
+     "registry": "https://npm.pkg.github.com/@NAZIMUDHEEN267"
    }
 }
