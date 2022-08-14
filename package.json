@@ -1,10 +1,11 @@
 {
   "name": "starter-file",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "generating files for project",
   "main": "./starter-file/index.js",
   "scripts": {
-    "test": "none"
+    "test": "none",
+    "deploy": "npm publish"
   },
   "repository": {
     "type": "git",
@@ -15,7 +16,7 @@
     "generator"
   ],
   "author": "nazimudheen_ti",
-  "license": "MIT",
+  "license": "glp",
   "bugs": {
     "url": "https://github.com/nazimudheen267/starter-file/issues"
   },
@@ -25,5 +26,8 @@
   "homepage": "https://github.com/nazimudheen267/starter-file#readme",
   "dependencies": {
     "inquirer": "^8.2.0"
-  }
+  },
+  "publishConfig": {
+     "registry": "https://npm.pkg.github.com/@nazimudheen267"
+   }
 }
